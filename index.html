@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+    <div class="container">
+        <h1>Hi, I’m <span class="highlight">Your Name</span></h1>
+        <p class="tagline">Web Developer • Designer • Creator</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+</header>
+
+<nav class="nav">
+    <div class="container">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="grid">
+            <img src="assets/profile.jpg" alt="Your photo" class="profile-img">
+            <div class="about-text">
+                <p>Hello! I’m a passionate <strong>front-end developer</strong> who loves clean code and beautiful UI. I work with HTML, CSS, JavaScript, React, and Node.js.</p>
+                <p>When I’m not coding, you’ll find me sketching, hiking, or experimenting with new design tools.</p>
+                <ul class="skills">
+                    <li>HTML / CSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React</li>
+                    <li>Git & GitHub</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section bg-light">
+    <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+
+            <article class="project-card">
+                <img src="assets/project1.jpg" alt="Project 1">
+                <div class="card-body">
+                    <h3>Project One</h3>
+                    <p>Responsive e-commerce landing page built with React and Tailwind.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank" class="link">View on GitHub</a>
+                    <a href="https://project1-demo.netlify.app" target="_blank" class="link demo">Live Demo</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/project2.jpg" alt="Project 2">
+                <div class="card-body">
+                    <h3>Project Two</h3>
+                    <p>Full-stack task manager using Node.js, Express, and MongoDB.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank" class="link">View on GitHub</a>
+                    <a href="https://project2-demo.netlify.app" target="_blank" class="link demo">Live Demo</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/project3.jpg" alt="Project 3">
+                <div class="card-body">
+                    <h3>Project Three</h3>
+                    <p>Personal blog theme with dark mode, built with Gatsby & MDX.</p>
+                    <a href="https://github.com/yourusername/project3" target="_blank" class="link">View on GitHub</a>
+                    <a href="https://project3-demo.netlify.app" target="_blank" class="link demo">Live Demo</a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out! I’m always open to new opportunities.</p>
+        <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p class="social">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
+            <a href="mailto:you@example.com">Email</a>
+        </p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
